@@ -1,11 +1,10 @@
 package edu.iect.repository;
 
-import edu.iect.dto.Student;
+
+import edu.iect.entity.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.beans.JavaBean;
-
 @Repository
-public interface SrudentRepository extends JpaRepository<Student,Long> {
+public interface StudentRepository extends JpaRepository<StudentEntity,Long> {
 }
