@@ -1,4 +1,6 @@
-package edu.iect.dto;
+package edu.iect.entity;
+
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +13,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Student {
+public class StudentEntity {
     private Long id;
     private String name;
     private String email;
@@ -23,4 +25,3 @@ public class Student {
     private String grade;
     private Double gpa;
 }
-
